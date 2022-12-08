@@ -130,6 +130,7 @@ span {
   background-size: cover;
   position: relative;
   height: 85vh;
+  clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
 }
 
 .overlay:before {
@@ -151,13 +152,14 @@ span {
   flex-direction: column;
   justify-content: flex-start;
   color: #fff;
-  height: 87%;
+  /* height: 87%; */
   margin-left: 3rem;
   position: absolute;
+  
 }
 
 /* create diagonal section to cut across bottom of showcase */
-.overlay-content::before,
+/* .overlay-content::before,
 .overlay::after {
   content: "";
   position: absolute;
@@ -167,7 +169,7 @@ span {
   left: 0px;
   background: #fff;
   transform: skewY(-3deg);
-}
+} */
 
 .overlay-content .btn {
   margin-top: 1rem;
