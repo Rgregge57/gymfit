@@ -81,7 +81,9 @@
     height: 100vh;
   }
 
-  .about .about-grid-3,
+  #about-2{
+    
+  }
   .club-grid-2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -163,7 +165,7 @@
 /* mobile phone landscape  */
 @media screen and (max-height: 500px) {
   .overlay {
-    height: 100vh;
+    height: 150vh;
   }
   .overlay-content::before,
   .overlay::after {

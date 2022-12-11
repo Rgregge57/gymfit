@@ -155,7 +155,6 @@ span {
   /* height: 87%; */
   margin-left: 3rem;
   position: absolute;
-  
 }
 .overlay-content .btn {
   margin-top: 1rem;
@@ -163,15 +162,8 @@ span {
 
 .about-grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, 25% 25% 50%);
+  grid-template-columns: repeat(3, 50% 25% 25%);
   text-align: center;
-}
-
-/* move about section away from the overlay skew otherwise stuff gets cut off */
-
-.about {
-  margin-top: 4rem;
-  margin-left: 4rem;
 }
 
 /* style about images so they are offset */
@@ -252,20 +244,15 @@ span {
   z-index: 10;
 }
 
-
-
-
-
 .card {
   background-color: #333;
   margin: 2rem;
   border: 2px solid var(--primary-color);
   height: 500px;
   color: #fff;
-  
 }
 
-.card .btn{
+.card .btn {
   border-radius: 0;
 }
 
@@ -278,7 +265,7 @@ span {
   padding-bottom: 0.5rem;
 }
 
-.card p{
+.card p {
   font-size: 0.9rem;
 }
 
@@ -296,33 +283,30 @@ span {
 
 /* club */
 
-
-
 .club-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 35% 65%);
   text-align: left;
- margin: 2rem;
-
+  margin: 2rem;
 }
-.club img{
+.club img {
   height: 60vh;
 }
 
-.club-content{
- margin: auto;
+.club-content {
+  margin: auto;
 }
 
-.club-content h4{
+.club-content h4 {
   margin-bottom: 1rem;
 }
-.club-content h1{
+.club-content h1 {
   border-bottom: 2px solid var(--primary-color);
   width: fit-content;
 }
 
-.club-content li{
-  text-align:left;
+.club-content li {
+  text-align: left;
   /* padding-top: 1rem; */
   list-style: none;
 }
@@ -332,21 +316,18 @@ span {
 .timetable {
   text-align: center;
   justify-content: center;
- padding: 3rem;
-  
- 
+  padding: 3rem;
 }
 
-.timetable h1{
-  
+.timetable h1 {
   border-bottom: 2px solid var(--primary-color);
   width: fit-content;
-  margin:3rem  auto;
+  margin: 3rem auto;
 }
 
 /* client */
-.client{
-  background:url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+.client {
+  background: url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,7 +359,7 @@ span {
   z-index: 10;
 }
 
-.client h1{
+.client h1 {
   border-bottom: 2px solid var(--primary-color);
   width: fit-content;
   justify-content: center;
@@ -388,12 +369,12 @@ span {
 }
 
 /* Contact */
-.contact{
+.contact {
   padding: 4rem;
 }
 
-.contact h1{
-  margin:3rem auto;
+.contact h1 {
+  margin: 3rem auto;
   border-bottom: var(--primary-color) 2px solid;
   width: fit-content;
 }
@@ -414,7 +395,7 @@ input[type="email"] {
   color: #333;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--secondary-color);
@@ -429,83 +410,76 @@ input:focus {
   border-bottom: 2px solid var(--secondary-color);
 }
 
-.form-button .btn{
+.form-button .btn {
   border-radius: 0;
   margin-top: 1rem;
 }
 
-.start-content{
+.start-content {
   height: 100%;
   justify-content: flex-start;
 }
 
-.start-content a{
+.start-content a {
   color: #501a76;
 }
 
-footer{
+footer {
   background: #333;
   color: #fff;
   padding: 3rem;
 }
 
-footer  a{
+footer a {
   color: #fff;
 }
 
-footer .links a:hover{
+footer .links a:hover {
   color: var(--primary-color);
 }
 
-.copy{
+.copy {
   display: flex;
   flex-direction: column;
 }
 
-.copy img{
+.copy img {
   width: 200px;
   height: 200px;
   margin: auto;
 }
 
-
-
-
 /* Blog page */
 
-
-.blog-top{
+.blog-top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 5rem;
 }
-.blog-top img{
+.blog-top img {
   height: 500px;
   width: 500px;
   margin: 1rem;
 }
 
-.blog-top h1{
+.blog-top h1 {
   border-bottom: 2px solid var(--primary-color);
   width: fit-content;
   margin-bottom: 1rem;
 }
 
-.blog-article img{
+.blog-article img {
   height: 500px;
 }
 
-.blog-article p{
+.blog-article p {
   padding: 3rem;
 }
 
-.blog-article .btn{
+.blog-article .btn {
   margin-bottom: 2rem;
 }
 
-.blog-article h1{
+.blog-article h1 {
   color: var(--primary-color);
 }
-
-
-
