@@ -14,12 +14,16 @@
     justify-content: center;
   }
 
+  .about #about-2{
+    display: none;
+  }
+
   /* The side navigation menu */
   .sidenav {
     height: 45vh;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     background-color: #501a76;
@@ -56,7 +60,7 @@
     margin-left: 50px;
   }
 
-  span {
+  .menu {
     display: inline;
     margin-right: auto;
     color: #fff;
@@ -81,9 +85,7 @@
     height: 100vh;
   }
 
-  #about-2{
-    
-  }
+  
   .club-grid-2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -96,6 +98,10 @@
     grid-template-columns: 1fr;
   }
 
+  .about #about-1,
+  .about #about-2{
+    width: 390px;
+  }
   .club-content {
     padding-bottom: 2rem;
   }
@@ -115,26 +121,16 @@
     height: 75%;
   }
 
+  #blog-3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   footer .copy,
   footer .links {
     padding-bottom: 2rem;
   }
 
-  /* blog page */
-
-  .blog-top {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 5rem;
-  }
-  .blog-top img {
-    height: 350px;
-    width: 350px;
-  }
-
-  .blog-top p {
-    margin-right: 2rem;
-  }
 }
 
 /* mobile phone width  */

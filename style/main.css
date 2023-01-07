@@ -115,7 +115,7 @@ a {
   padding: 1rem;
 }
 
-span {
+.menu {
   display: none;
 }
 
@@ -130,7 +130,7 @@ span {
   background-size: cover;
   position: relative;
   height: 85vh;
-  clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
 
 .overlay:before {
@@ -451,35 +451,21 @@ footer .links a:hover {
 
 /* Blog page */
 
-.blog-top {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 5rem;
-}
-.blog-top img {
-  height: 500px;
-  width: 500px;
-  margin: 1rem;
+#blog-1{
+  text-align: center;
+  padding-bottom: 3rem;
+  margin: auto 2rem;
 }
 
-.blog-top h1 {
-  border-bottom: 2px solid var(--primary-color);
-  width: fit-content;
-  margin-bottom: 1rem;
+#blog-2 .btn,
+#blog-3 .btn,
+#blog-4 .btn{
+ margin: 1rem;
+ 
 }
-
-.blog-article img {
-  height: 500px;
-}
-
-.blog-article p {
-  padding: 3rem;
-}
-
-.blog-article .btn {
-  margin-bottom: 2rem;
-}
-
-.blog-article h1 {
-  color: var(--primary-color);
+#blog-2 p,
+#blog-3 p,
+#blog-4 p{
+ padding: 1rem;
+ 
 }
